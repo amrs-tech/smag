@@ -34,46 +34,71 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-
+<style type="text/css">
+  input{
+    background-color: white;
+  }
+  #signup-form{
+    position: relative;
+    padding-top: 100px;
+  }
+</style>
 <body>
 
   <!--==========================
     Header
   ============================-->
+
   <header id="header">
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">SMAG</a></h1>
+        <h1><a href="/smag/" class="scrollto">SMAG</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Technologies</a></li>
-          <li><a href="#clients">Organizations</a></li>
-          <li><a href="#team">Team</a></li>
+          <li class="menu-active"><a href="/smag/#intro">Home</a></li>
+          <li><a href="/smag/#about">About Us</a></li>
+          <li><a href="/smag/#services">Services</a></li>
+          <li><a href="/smag/#portfolio">Technologies</a></li>
+          <li><a href="/smag/#clients">Organiations</a></li>
+          <li><a href="/smag/#team">Team</a></li>
           <li class="menu-has-children"><a href=""> Links</a>
             <ul>
               <li><a href="signup.html">Signup/Login</a></li>
               <li><a href="resrc.html">Resources</a></li>
               <li><a href="freelance.html">Volunteering</a></li>
-              
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- #header -->
+  </header>
+
+  <div id="black-bg" style="background-color: grey; width: 100%; height: 300px;">
+    <div id="login-form">
+    
+    </div>
+    <div id="signup-form">
+      <form action="" method="post">
+        <input type="text" name="name" placeholder=" Full Name"><br>
+        <input type="text" name="email" placeholder=" Email"><br>
+        <input type="text" name="phone" placeholder=" Phone"><br>
+      </form>
+    </div>
+  </div>
+  
+  
+  <!-- #header -->
 
   <!--==========================
     Intro Section
   ============================-->
+  <!--
   <section id="intro">
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
@@ -152,13 +177,16 @@
 
       </div>
     </div>
-  </section><!-- #intro -->
+  </section>
+-->
+  <!-- #intro -->
+<!--
+  <main id="main">-->
 
-  <main id="main">
-
-    <!--==========================
+    <!-- ==========================
       Featured Services Section
     ============================-->
+    <!--
     <section id="featured-services">
       <div class="container">
         <div class="row">
@@ -183,11 +211,14 @@
 
         </div>
       </div>
-    </section><!-- #featured-services -->
+    </section>
+-->
+    <!-- #featured-services -->
 
     <!--==========================
       About Us Section
     ============================-->
+    <!--
     <section id="about">
       <div class="container">
 
@@ -232,7 +263,7 @@
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
               <p>
-                SMAG will improve quality of education in india and provide high quality of skills.It also provides source to the Students who are very interested in gaining knowledge.  
+                SMAG will improve quality of education in india and provide high quality of skills  
               </p>
             </div>
           </div>
@@ -240,11 +271,14 @@
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section>
+-->
+    <!-- #about -->
 
     <!--==========================
       Services Section
     ============================-->
+    <!--
     <section id="services">
       <div class="container">
 
@@ -289,7 +323,9 @@
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section>
+-->
+    <!-- #services -->
 
     <!--==========================
       Call To Action Section
@@ -306,6 +342,7 @@
     <!--==========================
       Facts Section
     ============================-->
+    <!--
     <section id="facts"  class="wow fadeIn">
       <div class="container">
 
@@ -343,11 +380,14 @@
         </div>
 
       </div>
-    </section><!-- #facts -->
+    </section>
+-->
+    <!-- #facts -->
 
     <!--==========================
       Portfolio Section
     ============================-->
+    <!--
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
@@ -506,11 +546,15 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+
+    </section>
+  -->
+  <!-- #portfolio -->
 
     <!--==========================
       Clients Section
     ============================-->
+    <!--
     <section id="clients" class="wow fadeInUp">
       <div class="container">
 
@@ -530,7 +574,9 @@
         </div>
 
       </div>
-    </section><!-- #clients -->
+    </section>
+-->
+    <!-- #clients -->
 
     <!--==========================
       Clients Section
@@ -608,6 +654,7 @@
     <!--==========================
       Team Section
     ============================-->
+    <!--
     <section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
@@ -692,11 +739,13 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section>
+-->
+    <!-- #team -->
 
     <!--==========================
       Skills Section
-    ============================-->
+    ============================--><!--
     <section id="skills">
       <div class="container">
 
@@ -735,10 +784,11 @@
 
       </div>
     </section>
+  -->
 
     <!--==========================
       Contact Section
-    ============================-->
+    ============================--><!--
     <section id="contact" class="section-bg wow fadeInUp">
       <div class="container">
 
@@ -802,9 +852,9 @@
         </div>
 
       </div>
-    </section><!-- #contact -->
-
-  </main>
+    </section>--><!-- #contact -->
+<!--
+  </main> -->
 
   <!--==========================
     Footer
@@ -851,7 +901,7 @@
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>SMAG will provide the notifications of the currently trending technologies and brings you the world you want to know.</p>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
             <form action="" method="post">
               <input type="email" name="email" placeholder="Your Email"><input type="submit"  value="Subscribe">
             </form>
