@@ -1164,6 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   font-size: 13px;
   color: #fff;
+  display:block;
 }
 
 #team .member .social {
